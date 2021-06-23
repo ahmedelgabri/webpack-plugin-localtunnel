@@ -1,6 +1,6 @@
 {
   "name": "webpack-plugin-localtunnel",
-  "version": "1.0.1-1",
+  "version": "1.0.1",
   "main": "index.js",
   "author": "Ahmed El Gabri <ahmed@gabri.me> (https://gabri.me)",
   "license": "MIT",
