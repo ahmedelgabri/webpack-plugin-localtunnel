@@ -51,6 +51,4 @@ class LocalTunnelPlugin {
   }
 }
 
-module.exports = {
-  LocalTunnelPlugin,
-}
+module.exports = LocalTunnelPlugin
