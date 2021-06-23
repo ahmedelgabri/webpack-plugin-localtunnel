@@ -1,0 +1,36 @@
+{
+  "name": "webpack-plugin-localtunnel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ahmed El Gabri <ahmed@gabri.me> (https://gabri.me)",
+  "license": "MIT",
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "webpack",
+    "plugin",
+    "webpack-plugin-localtunnel",
+    "localhost",
+    "tunneling",
+    "localtunnel",
+    "ngrok"
+  ],
+  "dependencies": {
+    "localtunnel": "^2.0.1"
+  },
+  "devDependencies": {
+    "@ahmedelgabri/prettier-config": "^5.0.0",
+    "eslint": "^7.29.0",
+    "husky": "^6.0.0",
+    "lint-staged": "^11.0.0",
+    "prettier": "^2.3.1"
+  },
+  "lint-staged": {
+    "*.js": "eslint --fix",
+    "*.{js,css,md}": "prettier --write"
+  }
+}
