@@ -22,6 +22,9 @@ npm install -D webpack-plugin-localtunnel
 const LocaltunnelPlugin = require('webpack-plugin-localtunnel')
 
 module.exports = {
+  devServer: {
+    public: `${subdomain}.loca.lt`,
+  },
   plugins: [new LocaltunnelPlugin({subdomain: 'my-subdomain'})],
 }
 ```
